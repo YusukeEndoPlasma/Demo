@@ -12008,7 +12008,7 @@ html {
    -moz-border-radius: 0;
    border-radius: 0;
    color: #000000;
-   font-family: Brush Script MT;
+   /*font-family: Brush Script MT;*/
    font-size: 20px;
    font-weight: 300;
    padding: 40px;
@@ -12032,4 +12032,14 @@ html {
    border-radius: 0;
    color: #FFFFFF;
    text-decoration: none;
+}
+
+.layout {
+  width: 1366px;
+  height: 700px;
+
+  display: grid;
+  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
